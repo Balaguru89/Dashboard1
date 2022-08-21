@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>ACME</title>
+</head>
+<body>
+    <div class="container">
+        <div class="side-bar">
+            <h1>A C M E</h1>
+            <div class="Navlinks">
+                <ul>
+                    <li><span><img src="./Images/Home.png " alt="Home.png"></span><a href="#">Home</a></li>
+                    <li><span><img src="./Images/Dash.png" alt="Dash"></span><a href="#">Dashboard</a></li>
+                    <li><span><img src="./Images/Inbox.png " alt=""></span><a href="#">Inbox</a><button>New</button></li>
+                    <li><span><img src ="./Images/Products.png " alt=""></span><a href="#">Productss</a></li>
+                    <li><span><img src ="./Images/Admin.png " alt=""></span><a href="#">Admin</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="Content-bar">
+            <nav class="header"> 
+                <div class="Menu">
+                    <img src="./Images/Menu.png" alt="Menu" onclick="openNav()">
+                    <img src="./Images/Search.png " alt="Search ">
+                    <input type="search" value="Search Transactions, Invoice or help">
+                </div>              
+               <div class="nav-links-btn">
+                   <ul class="drop-hover-links">
+                        <img src="./Images/bell.png" alt="Bell ">
+                        <li><a href="#"><span>John doe</span> 
+                           <img src="./Images/arrow.png" alt="arrow"></a>
+                              
+                           <ul class="drop-down">
+                               <li><a href="#">My Profile</a></li>
+                               <li><a href="#">Billing</a></li>
+                               <li><a href="#">Logout</a></li>
+                           </ul>
+                        </li>   
+                           <img src="./Images/profile.jpeg " alt="profile "> 
+                   </ul>
+               </div>
+            </nav>
+            <div class="overview">
+                <h2>Overview</h2>
+                <button type="button">Add Funds<img src="./Images/plus.png" alt="plus"/></button>
+            </div>   
+            <div class="graph">
+                <div class="box-one">
+                    <p>Stastistics</p>
+                    <p>Last 6 months<img src="./Images/arrow.png"alt="arrow"></p>
+                    <div>    
+                        <ul class="box">
+                            <img src="./Images/linegraph.png" alt="line-graph"> 
+                            <li>Products sold</li>
+                            <li>Total views</li>
+                        </ul>
+                    </div>  
+                </div>    
+                    
+                <div class="box-two">
+                    <p>Sales Distribution</p>
+                    <p>23990</p><p>sales</p>
+                    <img src="./Images/Pie-Chart.png" alt="Pie-chart">
+                    <ul class="sales">
+                        <li><span>USA</span><span>$4260</span></span></li>
+                        <li><span>Italy</span><span>$4260</span></span></li>
+                        <li><span>Europe</span><span>4260</span></span></li>
+                    </ul>
+                    <div>
+                        <ul class="sales">
+                            <li><span>France</span><span>$3970</span></span></li>
+                            <li><span>Canada</span><span>$3970</span></span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="box-three">
+                    <img src="./Images/profile.jpeg" alt="profile">
+                    <h5>Nick Herasimenaka</h5>
+                    <h6>United states</h6>
+                        <div class="btone">
+                            <img src="./Images/twitter.png" alt="twitter">
+                            <img src="./Images/FB.png " alt="FB">
+                            <img src="./Images/LK.png " alt="LK">
+                            <img src="./Images/WA.jpg " alt="WA">
+                        </div>
+                        <div class="users">
+                            <h4>Our users</h4>
+                            <p><img src="./Images/user1.jpeg" alt="user1">Drew James</p>
+                            <p>United States<span>Mobile:8054155455</span></p>
+                            <p><img src="./Images/user2.jpeg" alt="user2">Bavid Kamesh</p>
+                            <p>United States<span>Mobile:8054155455</span></p>
+                            <p><img src="./Images/user3.jpeg" alt="user3">Lavid Emes</p>
+                            <p>United States<span>Mobile:8054155455</span></p>
+                        </div>
+                </div>
+            </div>
+            
+                <div class="referer">
+                    <div class="box-one">
+                        <h4>Referrer</h4>
+                        <table class="Tbl">
+                            <tr>
+                                <th>Location</th>
+                                <th>Views</th>
+                                <th>Sales</th>
+                                <th>Conversion</th>
+                                <th>Total</th>
+                            </tr>
+                            <tr>
+                                <td>google.com</td>
+                                <td>3746</td>
+                                <td>752</td>
+                                <td>43%</td>
+                                <td>$12.567</td>
+                            </tr>
+                            <tr>
+                                <td>facebook.com</td>
+                                <td>8152</td>
+                                <td>654</td>
+                                <td>48%</td>
+                                <td>$13.567</td>
+                            </tr>
+                            <tr>
+                                <td>twitter.com</td>
+                                <td>2150</td>
+                                <td>785</td>
+                                <td>33%</td>
+                                <td>$8.567</td>
+                            </tr>
+                            <tr>
+                                <td>Direct email</td>
+                                <td>6505</td>
+                                <td>456</td>
+                                <td>383%</td>
+                                <td>$9.567</td>
+                            </tr>
+                            <tr>
+                                <td>linkden</td>
+                                <td>1500</td>
+                                <td>589</td>
+                                <td>42%</td>
+                                <td>$11.567</td>
+                            </tr>
+                            <tr>
+                                <td>Instagram</td>
+                                <td>4250</td>
+                                <td>655</td>
+                                <td>35%</td>
+                                <td>$10.567</td>
+                            </tr>
+                            <tr>
+                                <td>show more</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="box-two">
+                        <h4>Product video</h4>
+                        <img src="./Images/video.png" alt="video">
+                    </div>
+                </div>
+            </div>
+    </div>
+    
+</body>
+</html>

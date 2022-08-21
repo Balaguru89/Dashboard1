@@ -1,0 +1,405 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.container{
+    display:flex;
+    gap:30px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.side-bar{
+    background-color: #43425D;
+    width: 20%;
+    height: 960px;
+}
+
+h1{
+    color:white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    padding: 20px 0px 0px 20px;
+}
+
+.Navlinks ul li{
+    display: flex;
+    gap:10px;
+    list-style: none;
+    margin: 30px;
+    margin-right: 100px;
+    font-size: 16px;
+    color: white;
+    position: relative;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+    font: normal normal normal 16px/20px Source Sans Pro;
+}
+
+.Navlinks ul li span img, .Menu img, .drop-hover-links img{
+    width:20px;
+    height:20px;
+    margin-top: 0px;  
+}
+
+.Navlinks ul li button{
+    font-size: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    border-radius: 10px;
+    margin-top: 5px;
+    padding: 0px 10px 0px 10px;
+    height: 20px;
+    border:none;
+    background-color: #FF4A33;
+    position: absolute;
+    color:white;
+    left:150px;
+}
+
+/* Content bar styles */
+.Content-bar{
+    max-width: 80%;
+    margin-left: 10px;
+    border-top-left-radius: 15px;
+}
+
+.header{
+    display:flex;
+    gap:410px;
+    margin: 10px 10px 0px 0px ;
+    background-color: #FFFFFF;
+    height: 50px;
+}
+
+.Menu img:first-child{
+    margin-right:20px;    
+}
+
+.Menu img:nth-child(2){
+    width:15px;
+    height:15px;    
+}
+
+.Menu input {
+    width: 400px;
+    border:none;
+}
+
+.drop-hover-links{
+    display: flex;
+    gap:20px;
+}
+.drop-hover-links span{
+  color:black;
+}
+
+.drop-hover-links img{
+    width:30px;
+    height:30px;
+}
+
+.drop-hover-links a img{
+    width:10px;
+    height:10px;
+    margin-top: 10px;
+}
+
+li{
+    list-style: none; 
+    color: black;
+}
+  
+    .drop-hover-links li img{
+        position: relative;
+    }
+    
+.drop-down li a:hover{
+    background-color: red;
+}
+
+.drop-hover-links img:nth-child(2):hover .drop-down{
+    opacity: 1;
+    top: 20px;
+    pointer-events: auto;
+}
+
+.overview{
+    display: flex;
+    gap:810px;
+    margin-top: 0px;
+    background-color: #F5F7FB;
+}
+
+.overview button{
+    background-color: #6763E3;
+    border-radius: 5px;
+    border: none;
+    padding:5px 10px 5px 10px;
+    margin:10px 0px 0px 0px;
+    height:40px;
+    width:160px;
+    align-items: center;
+    font-size: 16px;
+}
+
+.overview img{
+    width:15px;
+    height:15px;
+    padding: 5px 0px 0px 20px;
+}
+
+.graph{
+    display:flex;
+    gap:0px;
+    background-color: #F5F7FB;
+}
+.graph .box-one{
+    display:flex;
+    margin: 20px 10px 10px 10px ;
+    width:460px;
+    height:440px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.box-one p:first-child{
+    margin-right: 80px;
+}
+
+.box-one p:nth-child(2){
+    position:relative;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.box-one p:nth-child(2) img{
+    position:absolute;
+    top:5px;
+    left:100px;
+}
+.box-one img{
+    width:10px;
+    height:10px;
+}
+
+.box img{
+     
+    width:250px;
+    height:250px;  
+    margin-left: -200px;
+    margin-top: 80px;
+} 
+
+.box li:nth-child(2){
+    list-style:disc;
+    color:blue;
+    margin: 10px 0px 0px -180px;
+}
+
+.box li:nth-child(3){
+    list-style:disc;
+    color:gray;
+    margin: 10px 0px 0px -180px;
+}
+.box-two{
+    background-color: white;
+    margin: 20px 10px 10px 10px;
+    width:460px;
+    height:440px;
+    border-radius: 20px;
+}
+.box-two img{
+    width:250px;
+    height:250px;
+    margin-left:40px;
+    margin-top:50px;
+}
+
+.box-two p:nth-child(2) img{
+    position:relative;
+}
+
+.box-two p:nth-child(2){
+    position:absolute;
+    top:300px;
+    left:780px;
+}
+
+.box-two p:nth-child(3){
+    position:absolute;
+    top:320px;
+    left:783px;
+    
+}
+
+.box-three{
+    background-color: white;
+    margin: 20px 0px 10px 10px;
+    width:460px;
+    height:520px;
+    border-radius: 20px;
+}
+.box-three img{
+    border-radius: 50%;
+    width:50px;
+    height:50px;
+    margin: 25px 0px 0px 140px;
+}
+
+.sales{
+    display:flex;
+    gap:10px;
+}
+.sales li{
+    list-style-type: disc;
+    color:blue;
+    margin: 10px 0px 0px 30px;
+}
+
+.sales span{
+    color:black;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.sales li span:nth-child(2){
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+h5{
+    margin-left: 110px;
+    margin-top: 10px;
+}
+h6{
+    margin: 10px 0px 0px 130px;
+}
+.btone img:nth-child(1){
+    margin-left: 110px;
+}
+.btone img:nth-child(1), .btone img:nth-child(2),
+.btone img:nth-child(3), .btone img:nth-child(4){
+    margin-right:-140px;
+    margin-top: 10px;
+    width:20px;
+    height:20px;
+}
+
+.users h4{
+    margin: 60px 0px 10px 20px;    
+}
+
+.users p{
+    position:relative;
+    height:30px;
+}
+.users p:nth-child(2), .users p:nth-child(4), .users p:nth-child(6){
+    margin: 30px 0px -10px 100px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.users p img{
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-top: 10px;
+    width:30px;
+    height:30px;
+    position: absolute;
+    left:-50px;
+    top:-8px;
+}
+.users p:nth-child(3), .users p:nth-child(5), .users p:nth-child(7){
+    margin: 0px 0px 0px 100px;
+    font-size: 13px;
+}
+
+.users span{
+    margin-left: 50px;
+}
+
+.referer{
+    display: flex;
+    gap:50px;
+    background-color: #F5F7FB;
+}
+
+.referer .box-one{
+    width:1050px;
+    height:420px;
+    background-color: white;
+    margin: -60px 0px 10px 20px;
+    border-radius: 20px;
+}
+.Tbl th{
+    margin-top: 10px;
+    margin-right: 20px;
+    padding:20px 60px 10px 20px;
+    background-color: #F5F6FA;
+}
+
+.Tbl td{
+    padding:20px 0px 0px 30px;
+    
+}
+
+.Tbl tr:nth-child(8) td{
+    color: #3B86FF;
+}
+.referer .box-two{
+    margin: 20px 10px 10px 0px;
+    width:490px;
+    height:340px;
+    border-radius: 20px;
+}
+
+.referer .box-two h4{
+    margin: 10px 0px 0px 10px;
+}
+.referer .box-two img{
+    width:300px;
+    height:200px;
+    background-color: white;
+    margin: 20px 10px 10px 10px;
+}
+
+@media only screen and (max-width: 992px){
+    .container{
+        display:block;
+    }
+
+    .sidebar{
+        width: 80%;
+    }
+    .Menu{
+        display:flex;
+    }
+    .Menu input {
+        display:none;
+        width: 0px;
+        border:none;
+    }
+    .drop-hover-links{
+        display:flex;
+        gap:0px;
+    }
+    .drop-hover-links img:nth-child(1){
+        margin-left: -250px;
+    } 
+    .drop-hover-links span, .drop-hover-links a img{
+        display:none;
+      }
+    .overview{
+        display: flex;
+        gap:100px;  
+    }
+    .graph{
+        display:block;
+    }
+    .referer{
+        display: block;
+    }
+    
+}
